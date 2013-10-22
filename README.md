@@ -8,6 +8,7 @@ Handles cyclic dependencies and performs automatic backtracking when a better so
 TODO: docs, tests, etc. ( this project was recently refactored out of a larger codebase )
 
 In the meantime, here's an example from a production project.
+Notice how different alternatives for solving a given property are chained with the or() method.
 
 
 ```scala
